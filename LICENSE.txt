@@ -1,0 +1,17 @@
+CyberShield AI - Proprietary License
+© 2025 Manasvi Gowda P. All Rights Reserved.
+
+This software, including all source code, assets, logic, and interfaces, is the exclusive intellectual property of Manasvi Gowda P.
+
+ You MAY NOT:
+- Copy, distribute, or sell any part of the application
+- Modify or reverse-engineer the code or logic
+- Use the project for commercial gain without a license
+
+ You MAY:
+- View and interact with the platform for educational, demo, or evaluation purposes (non-commercial only)
+- Request a commercial license or partnership via official channels
+
+ Unauthorized use is a violation of copyright law.
+
+For inquiries: [manasvigowda51@gmail.com]
