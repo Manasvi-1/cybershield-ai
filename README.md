@@ -156,7 +156,7 @@ git push heroku main
 - Input validation on all endpoints
 - Rate limiting recommended for production
 
-## License## 
+## License
 
 This software is proprietary and protected under copyright law.  
 © 2025 Manasvi Gowda P. All Rights Reserved.  
