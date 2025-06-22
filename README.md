@@ -1,17 +1,32 @@
-# CyberShield AI - Advanced Cybersecurity Platform
+# CyberShield AI – Real-Time Cybersecurity Platform
 
-A comprehensive AI-driven cybersecurity detection system featuring honeypot monitoring, deepfake detection, phishing analysis, and real-time threat alerts.
+CyberShield AI is a full-stack cybersecurity platform that provides real-time honeypot monitoring, phishing detection using machine learning, deepfake analysis, and threat alerting—all in a single deployable file.
+
+[![License](https://img.shields.io/badge/license-Proprietary-red)](LICENSE.txt)
+[![Status](https://img.shields.io/badge/status-Production--Ready-brightgreen)](#)
+[![Tech](https://img.shields.io/badge/Built%20With-Node.js%2C%20React%2C%20Tailwind-blue)](#)
+
+## Live Demo
+
+Landing Page: [https://manasvi-1.github.io/cybershield-ai/](https://manasvi-1.github.io/cybershield-ai/)  
+Backend Deployment: Coming soon on Railway
 
 ## Features
 
-- **Real-time SSH Honeypot Dashboard** - Interactive world map visualization showing attack locations
-- **AI-Powered Email Analysis** - Phishing detection with confidence scoring and risk indicators
-- **Deepfake Detection** - Advanced ML algorithms for image and video analysis
-- **Honeypot Monitoring** - Multi-service attack detection (SSH, HTTP, FTP)
-- **Real-time Threat Alerts** - WebSocket-based live notifications
-- **Comprehensive Analytics** - Security metrics and reporting dashboard
+- Real-time honeypot monitoring for SSH, HTTP, and FTP
+- Phishing email analysis with confidence scoring
+- Deepfake detection for images and videos
+- WebSocket-based threat alerts
+- Interactive world map and analytics dashboard
+- One-file deployment with no database dependencies
 
 ## Quick Start
+
+Install and run the complete version:
+
+```bash
+npm install express ws
+node cybershield-complete.js
 
 ### Prerequisites
 - Node.js 18+ 
