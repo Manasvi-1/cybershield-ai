@@ -181,7 +181,6 @@ For business inquiries: manasvigowda51@gmail.com
 
 
 
-
 ## Support
 
 For issues and questions:
@@ -196,3 +195,8 @@ For issues and questions:
 - Efficient in-memory storage
 - Optimized React components
 - Responsive design for all devices
+
+
+Legal
+	•	Terms of Use
+	•	Privacy Policy
