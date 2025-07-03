@@ -1,4 +1,5 @@
 # CyberShield AI – Real-Time Cybersecurity Platform
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=github.com/Manasvi-1/cybershield-ai)
 
 CyberShield AI is a full-stack cybersecurity platform that provides real-time honeypot monitoring, phishing detection using machine learning, deepfake analysis, and threat alerting—all in a single deployable file.
 
