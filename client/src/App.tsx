@@ -47,7 +47,7 @@ function AppContent() {
         break;
         
       case 'honeypot_attack':
-        if (message.alert) {
+        if (message.attack) {
           toast({
             title: `${message.attack.service.toUpperCase()} Attack Detected`,
             description: `${message.attack.attackType} from ${message.attack.sourceIp}`,
