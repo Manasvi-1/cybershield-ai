@@ -1,0 +1,124 @@
+Starting honeypot services...
+🛡️  CyberShield AI running on port 5000
+📧 Email alerts: Simulated (set SENDGRID_API_KEY for real emails)
+🌐 Access your security dashboard at: http://localhost:5000
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 223.42.108.71
+        - Location: Tokyo, Japan
+        - Attack Type: Dictionary Attack
+        - Attempts: 44
+        - Time: 2025-11-20T05:46:06.841Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 139.45.109.159
+        - Location: Tokyo, Japan
+        - Attack Type: Brute Force
+        - Attempts: 32
+        - Time: 2025-11-20T05:46:21.841Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 106.167.233.252
+        - Location: New York, United States
+        - Attack Type: Brute Force
+        - Attempts: 8
+        - Time: 2025-11-20T05:46:36.847Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 199.208.48.26
+        - Location: Beijing, China
+        - Attack Type: Credential Stuffing
+        - Attempts: 44
+        - Time: 2025-11-20T05:46:51.848Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 3.133.57.172
+        - Location: Tokyo, Japan
+        - Attack Type: Brute Force
+        - Attempts: 24
+        - Time: 2025-11-20T05:47:06.863Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 172.254.244.98
+        - Location: Moscow, Russia
+        - Attack Type: Credential Stuffing
+        - Attempts: 27
+        - Time: 2025-11-20T05:47:21.873Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 211.185.87.115
+        - Location: Berlin, Germany
+        - Attack Type: Brute Force
+        - Attempts: 19
+        - Time: 2025-11-20T05:47:36.873Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 129.17.128.131
+        - Location: Berlin, Germany
+        - Attack Type: Brute Force
+        - Attempts: 46
+        - Time: 2025-11-20T05:47:51.888Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 10.2.115.41
+        - Location: Berlin, Germany
+        - Attack Type: Dictionary Attack
+        - Attempts: 31
+        - Time: 2025-11-20T05:48:06.888Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 99.123.141.109
+        - Location: Berlin, Germany
+        - Attack Type: Credential Stuffing
+        - Attempts: 40
+        - Time: 2025-11-20T05:48:21.903Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 210.174.163.235
+        - Location: Tokyo, Japan
+        - Attack Type: Credential Stuffing
+        - Attempts: 14
+        - Time: 2025-11-20T05:48:36.903Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 67.50.197.91
+        - Location: Berlin, Germany
+        - Attack Type: Dictionary Attack
+        - Attempts: 5
+        - Time: 2025-11-20T05:48:51.904Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 170.143.234.246
+        - Location: New York, United States
+        - Attack Type: Credential Stuffing
+        - Attempts: 24
+        - Time: 2025-11-20T05:49:36.910Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 1.217.63.1
+        - Location: Beijing, China
+        - Attack Type: Brute Force
+        - Attempts: 21
+        - Time: 2025-11-20T05:50:06.916Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 43.203.84.240
+        - Location: New York, United States
+        - Attack Type: Credential Stuffing
+        - Attempts: 33
+        - Time: 2025-11-20T05:50:51.932Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 195.21.96.252
+        - Location: Tokyo, Japan
+        - Attack Type: Dictionary Attack
+        - Attempts: 6
+        - Time: 2025-11-20T05:51:06.933Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 120.166.156.112
+        - Location: Berlin, Germany
+        - Attack Type: Credential Stuffing
+        - Attempts: 22
+        - Time: 2025-11-20T05:51:21.932Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 235.73.177.57
+        - Location: New York, United States
+        - Attack Type: Dictionary Attack
+        - Attempts: 33
+        - Time: 2025-11-20T05:51:51.937Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 77.79.144.2
+        - Location: Tokyo, Japan
+        - Attack Type: Dictionary Attack
+        - Attempts: 47
+        - Time: 2025-11-20T05:52:21.948Z
+[SIMULATED EMAIL] SSH Attack Alert:
+        - Attacker IP: 50.142.58.231
+        - Location: Beijing, China
+        - Attack Type: Credential Stuffing
+        - Attempts: 44
+        - Time: 2025-11-20T05:52:51.959Z
