@@ -73,8 +73,8 @@ export function WorldMap({ attacks, onMarkerClick, className = "" }: WorldMapPro
       >
         <ZoomableGroup zoom={1}>
           <Geographies geography={geoUrl}>
-            {({ geographies }) =>
-              geographies.map((geo) => (
+            {({ geographies }: any) =>
+              (geographies as any[]).map((geo: any) => (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
