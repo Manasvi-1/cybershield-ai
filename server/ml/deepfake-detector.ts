@@ -1,3 +1,8 @@
+// Note: Using @tensorflow/tfjs instead of @tensorflow/tfjs-node to avoid native
+// dependency installation issues in some environments. While tfjs-node has better
+// performance with native bindings, tfjs provides sufficient performance for this
+// use case and has better compatibility. The model loading and inference still work
+// correctly, and the rule-based fallback ensures functionality even without ML.
 import * as tf from '@tensorflow/tfjs';
 import sharp from 'sharp';
 
