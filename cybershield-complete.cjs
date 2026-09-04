@@ -8,7 +8,7 @@
  * Deploy to Google Cloud Platform:
  * 1. Upload this file
  * 2. Set environment variables: PORT (optional), SENDGRID_API_KEY (optional)
- * 3. Run: node cybershield-complete.js
+ * 3. Run: node cybershield-complete.cjs
  */
 
 const express = require('express');
