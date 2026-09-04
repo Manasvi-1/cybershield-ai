@@ -6,13 +6,13 @@ The easiest way to deploy CyberShield AI is using the complete single-file versi
 
 ```bash
 # Download the complete application file
-# cybershield-complete.js contains everything needed
+# cybershield-complete.cjs contains everything needed
 
 # Install minimal dependencies
 npm install express ws
 
 # Run the application
-node cybershield-complete.js
+node cybershield-complete.cjs
 ```
 
 ## Google Cloud Platform Deployment
@@ -24,9 +24,9 @@ node cybershield-complete.js
    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
    sudo apt-get install -y nodejs
    ```
-3. Upload `cybershield-complete.js`
+3. Upload `cybershield-complete.cjs`
 4. Install dependencies: `npm install express ws`
-5. Run: `node cybershield-complete.js`
+5. Run: `node cybershield-complete.cjs`
 
 ### Method 2: Full Project
 1. Upload the complete project folder
@@ -47,18 +47,14 @@ export SENDGRID_API_KEY=your_sendgrid_key  # Optional
 
 ## Other Cloud Platforms
 
-### Heroku
-```bash
-# Create Heroku app
-heroku create cybershield-ai
-
-# Set environment variables
-heroku config:set PORT=\$PORT
-heroku config:set SENDGRID_API_KEY=your_key
-
-# Deploy
-git push heroku main
-```
+### Render (Free Tier)
+1. Push the repository to GitHub.
+2. In Render, click **New +** → **Web Service**.
+3. Select this repository and set:
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+4. Add `SENDGRID_API_KEY` only if real email delivery is needed.
+5. Deploy and use the generated `onrender.com` URL.
 
 ### AWS EC2
 1. Launch EC2 instance (Ubuntu 20.04+)

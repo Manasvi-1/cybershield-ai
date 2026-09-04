@@ -1,5 +1,4 @@
 # CyberShield AI – Real-Time Cybersecurity Platform
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=github.com/Manasvi-1/cybershield-ai)
 
 CyberShield AI is a full-stack cybersecurity platform that provides real-time honeypot monitoring, phishing detection using machine learning, deepfake analysis, and threat alerting—all in a single deployable file.
 
@@ -10,7 +9,7 @@ CyberShield AI is a full-stack cybersecurity platform that provides real-time ho
 ## Live Demo
 
 Landing Page: [https://manasvi-1.github.io/cybershield-ai/](https://manasvi-1.github.io/cybershield-ai/)  
-Backend Deployment: Coming soon on Railway
+Backend Deployment: deploy the app on a free host like Render (instructions below)
 
 ## Features
 
@@ -27,7 +26,8 @@ Install and run the complete version:
 
 ```bash
 npm install express ws
-node cybershield-complete.js
+node cybershield-complete.cjs
+```
 
 ### Prerequisites
 - Node.js 18+ 
@@ -57,14 +57,14 @@ PORT=5000
 
 ## Single File Deployment
 
-For easy deployment, use the included `cybershield-complete.js` file:
+For easy deployment, use the included `cybershield-complete.cjs` file:
 
 ```bash
 # Install minimal dependencies
 npm install express ws
 
 # Run the complete application
-node cybershield-complete.js
+node cybershield-complete.cjs
 ```
 
 ## Architecture
@@ -131,7 +131,17 @@ node cybershield-complete.js
 1. Upload project files
 2. Set environment variables
 3. Run `npm install`
-4. Start with `npm run dev` or `node cybershield-complete.js`
+4. Start with `npm run dev` or `node cybershield-complete.cjs`
+
+### Render (Free Public Hosting)
+1. Push this repository to GitHub.
+2. In Render, create a new **Web Service** from the repository.
+3. Use these settings:
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+   - Environment: `Node`
+4. Add optional env var `SENDGRID_API_KEY` only if you want real email alerts.
+5. Deploy. Render sets `PORT` automatically.
 
 ### Docker
 ```dockerfile
